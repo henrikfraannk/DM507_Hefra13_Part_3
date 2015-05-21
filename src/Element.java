@@ -10,9 +10,9 @@
  */
 public class Element {
     public int key;
-    public Object data;
+    public Node data;
     
-    public Element(int i, Object o){
+    public Element(int i, Node o){
         this.key = i;
         this.data = o;
     }

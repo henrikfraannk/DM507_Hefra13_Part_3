@@ -88,4 +88,8 @@ PQHeap(int maxElms){
         }
         return elms;
     }
+    
+    public int getSize(){
+        return current;
+    }
 }
